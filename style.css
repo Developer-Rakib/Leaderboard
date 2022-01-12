@@ -28,13 +28,24 @@ main{
     border-radius: 10px;
     
 }
+/* Animation */
+
+@keyframes downAnim {
+    0%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
 
 /* ------------------------
     header section 
 ---------------------------*/
 header{
 
-    background-color: #562EFF;
+    background-color: rgb(86, 46, 255);
+    animation: downAnim 1.5s ease 1;
 
 
 }
@@ -87,6 +98,7 @@ header{
 ---------------------------*/
 .top{
     margin: 18px;
+    animation: downAnim 1.5s ease 1;
 }
 
 .player-title{
@@ -179,6 +191,7 @@ hr{
 ---------------------------*/
 .bottom{
     margin-bottom: 18px;
+    animation: downAnim 1.5s ease 1;
 }
 .courses{
     display: flex;
