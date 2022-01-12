@@ -102,7 +102,6 @@ header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 29px;
-    /* grid-column-gap: 113px; */
     
 }
 .player{
@@ -200,7 +199,6 @@ hr{
     width: 224px;
     height: 104px;
 }
-.cours-details{}
 .cours-details h4 {
 	font-size: 20.03px;
 	line-height: 23.48px;
@@ -275,8 +273,6 @@ hr{
         justify-content: space-evenly;
     }
     .blogs {
-        /* display: grid; */
-        /* grid-template-columns: repeat(2, 1fr); */
         grid-row-gap: 26px;
         grid-column-gap: 80px;
         display: flex;
@@ -324,6 +320,9 @@ hr{
     }
     .cour-doretion span {
         font-size: 12.5px;
+    }
+    .menu ul {
+        height: 60px;
     }
 }
 @media  only screen and (max-width: 500px){
